@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello! My name is Dominique Desert</h1>
-      <small>A 14 year old, fresg a High School, A Freshman at Bergen Community College, A Mechatronics Major, and a web-developer</small>
+      <small>A high school freshman, Bergen Community College Freshman, Mechatronics Major, and a web developer</small>
 
       <div>
         <h2>Languages</h2>
