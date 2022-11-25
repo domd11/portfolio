@@ -23,8 +23,8 @@ function App() {
 
       <div>
         <h2>Languages</h2>
-        <DiReact className='language-icon'/>
-        <DiHtml5 className='language-icon'/>
+        <DiReact className='language-icon' />
+        <DiHtml5 className='language-icon' />
         <DiCss3 className='language-icon'/>
         <DiJavascript className='language-icon'/>
         <TbBrandNextjs className='language-icon'/>
@@ -34,6 +34,7 @@ function App() {
       </div>
       <hr />
       <div className='container'>
+      <h2><strong>The Journey</strong></h2>
         <h3>The Start: 6th Grade</h3>
         <p>I came across web development at Khan Academy. I started and completed the HTML, CSS, and JavaScript courses. During this period, I built to-do lists, and timers using APIs and learned about the basics of web development and DOM. I was able to complete the entire course because I had a lot of time since the school was online.
         </p>
@@ -41,8 +42,11 @@ function App() {
         <p>I started learning about the types of jobs people can get with web development. I learned about full-stack development; I liked how they could do both backend and front ends. I did research on the types of front-end and backend languages. I tried Django and ReactjS. I tried both and liked ReactJs more. </p>
         <h3>9th Grade (Present Day)</h3>
         <p>I learned about NextJS and started learning it in September. I have created a plan to learn NextJS, NodeJS, MongoDB, NoSQL, and TailwindCSS for 2 to 3 years. So far, I have completed learning NextJS and Firebase. I plan to start learning MongoDB in January 2023.</p>
+        
+        
         <hr />
         <h3>Contact Me!</h3>
+        
         <form ref={form} onSubmit={sendEmail}>
         <label>Name: </label>
         <input type="text" name="user_name" />
